@@ -1,0 +1,120 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Body/Head (Bluish Grey Cat peeking) -->
+    <path
+        android:fillColor="#809BB0"
+        android:strokeColor="#2C3E50"
+        android:strokeWidth="2.5"
+        android:pathData="M 18,90 C 18,48 24,28 32,22 C 34,14 40,6 44,12 C 48,16 50,16 52,12 C 56,6 62,14 64,22 C 72,28 78,48 78,90 Z" />
+
+    <!-- Inner ears -->
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M 35,21 C 36,16 40,11 42,15 C 43,18 40,21 35,21 Z" />
+    <path
+        android:fillColor="#FFB6C1"
+        android:pathData="M 61,21 C 60,16 56,11 54,15 C 53,18 56,21 61,21 Z" />
+
+    <!-- White muzzle area -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 30,52 C 30,42 66,42 66,52 C 66,66 30,66 30,52 Z" />
+
+    <!-- Big Cute Cartoon Eyes -->
+    <ellipse
+        android:cx="38"
+        android:cy="38"
+        android:rx="8"
+        android:ry="11"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="2" />
+    <ellipse
+        android:cx="58"
+        android:cy="38"
+        android:rx="8"
+        android:ry="11"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="2" />
+
+    <!-- Big Pupils looking up -->
+    <ellipse
+        android:cx="38"
+        android:cy="35"
+        android:rx="5"
+        android:ry="7"
+        android:fillColor="#1E293B" />
+    <ellipse
+        android:cx="58"
+        android:cy="35"
+        android:rx="5"
+        android:ry="7"
+        android:fillColor="#1E293B" />
+
+    <!-- Eye Highlights -->
+    <circle
+        android:cx="36"
+        android:cy="32"
+        android:r="2.5"
+        android:fillColor="#FFFFFF" />
+    <circle
+        android:cx="56"
+        android:cy="32"
+        android:r="2.5"
+        android:fillColor="#FFFFFF" />
+    <circle
+        android:cx="40"
+        android:cy="38"
+        android:r="1.2"
+        android:fillColor="#FFFFFF" />
+    <circle
+        android:cx="60"
+        android:cy="38"
+        android:r="1.2"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Red Cartoon Nose (Like Oggy) -->
+    <ellipse
+        android:cx="48"
+        android:cy="48"
+        android:rx="6"
+        android:ry="5"
+        android:fillColor="#EF4444"
+        android:strokeColor="#B91C1C"
+        android:strokeWidth="1.5" />
+    <ellipse
+        android:cx="46"
+        android:cy="46"
+        android:rx="2"
+        android:ry="1.5"
+        android:fillColor="#FECACA" />
+
+    <!-- Whiskers -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 28,48 L 14,46 M 28,52 L 12,53 M 68,48 L 82,46 M 68,52 L 84,53" />
+
+    <!-- Paws peeking on top of the battery -->
+    <ellipse
+        android:cx="34"
+        android:cy="82"
+        android:rx="7"
+        android:ry="6"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#2C3E50"
+        android:strokeWidth="2" />
+    <ellipse
+        android:cx="62"
+        android:cy="82"
+        android:rx="7"
+        android:ry="6"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#2C3E50"
+        android:strokeWidth="2" />
+</vector>

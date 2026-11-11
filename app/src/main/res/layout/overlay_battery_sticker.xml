@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- The Peeking Sticker Character -->
+    <ImageView
+        android:id="@+id/ivSticker"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="Battery Sticker"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_pet_oggy_cat" />
+
+    <!-- Charging Indicator Badge (Visible when plugged in) -->
+    <ImageView
+        android:id="@+id/ivChargingBolt"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_charging_indicator"
+        android:visibility="gone"
+        android:contentDescription="Charging" />
+
+</FrameLayout>

@@ -1,0 +1,100 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Bear Ears -->
+    <circle
+        android:cx="30"
+        android:cy="24"
+        android:r="10"
+        android:fillColor="#B45309"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2.5" />
+    <circle
+        android:cx="30"
+        android:cy="24"
+        android:r="5"
+        android:fillColor="#FDE68A" />
+
+    <circle
+        android:cx="66"
+        android:cy="24"
+        android:r="10"
+        android:fillColor="#B45309"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2.5" />
+    <circle
+        android:cx="66"
+        android:cy="24"
+        android:r="5"
+        android:fillColor="#FDE68A" />
+
+    <!-- Bear Head -->
+    <path
+        android:fillColor="#D97706"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2.5"
+        android:pathData="M 22,86 C 18,48 24,28 48,28 C 72,28 78,48 74,86 Z" />
+
+    <!-- Muzzle -->
+    <ellipse
+        android:cx="48"
+        android:cy="54"
+        android:rx="12"
+        android:ry="9"
+        android:fillColor="#FEF3C7" />
+
+    <!-- Cute Eyes -->
+    <circle
+        android:cx="38"
+        android:cy="42"
+        android:r="4"
+        android:fillColor="#1E293B" />
+    <circle
+        android:cx="58"
+        android:cy="42"
+        android:r="4"
+        android:fillColor="#1E293B" />
+    <circle
+        android:cx="37"
+        android:cy="40"
+        android:r="1.5"
+        android:fillColor="#FFFFFF" />
+    <circle
+        android:cx="57"
+        android:cy="40"
+        android:r="1.5"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Nose and mouth -->
+    <ellipse
+        android:cx="48"
+        android:cy="50"
+        android:rx="4"
+        android:ry="3"
+        android:fillColor="#78350F" />
+    <path
+        android:strokeColor="#78350F"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M 48,53 L 48,57 M 44,57 Q 48,61 52,57" />
+
+    <!-- Paws -->
+    <ellipse
+        android:cx="32"
+        android:cy="82"
+        android:rx="7"
+        android:ry="6"
+        android:fillColor="#FEF3C7"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2" />
+    <ellipse
+        android:cx="64"
+        android:cy="82"
+        android:rx="7"
+        android:ry="6"
+        android:fillColor="#FEF3C7"
+        android:strokeColor="#78350F"
+        android:strokeWidth="2" />
+</vector>
